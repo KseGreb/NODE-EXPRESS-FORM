@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>New form</h1>
+    <form action="/form-submitted" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input type="text" name="address">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="order">Your order</label>
+            <select name="order">
+                <option>Fish box</option>
+                <option>Lobster box</option>
+                <option>Chicken box</option>
+                <option>Vegan box</option>
+            </select>
+        </div>
+        <div>
+            <label for="subscribe">Are you interested ion our emails?</label>
+            <select name="subscribe">
+                <option>Yes, I'm in</option>
+                <option>No,  don't spam me</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
